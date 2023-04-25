@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@400;500;700&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --primarycolor: #05077c;
+    --primaryfont: 'poppins',sans-serif;
+    --secondaryfont:'Poltawski+Nowy';
+    --fontcolor: #fc5407;
+}
+.header{
+    margin-top: 15px;
+}
+.header-row{
+    height: 40px;
+    width: 100%;
+    background-color: #05077c;
+    justify-content: center;
+    align-items: center;
+}
+.row-item{
+    display: flex;
+}
+.row-item p{
+color: #fff;
+font-size: 10px;
+padding-top: 10px;
+}
+.mail{
+    padding-left: 37px;
+}
+.address{
+    padding-left: 90px;
+}
+.socials{
+    display: flex;
+    padding-left: 320px;
+}
+.socials li{
+    list-style: none;
+    color: #fff;
+    padding-left: 25px;
+    font-size: 10px;
+    padding-top: 10px;
+}
+.navbar-brand{
+    font-weight: 800;
+}
+.stop{
+    color: #fc5407;
+}
+.space{
+margin-left: 420px;
+}
+.now{
+    background-color: #ec1203;
+    padding: 8px 20px;
+border-radius: 5px;
+}
+.cnt{
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+.intro{
+    background-image: url(../img/bgg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.intro-container{
+    padding: 200px 150px;
+}
+.wlc{
+    color: var(--fontcolor);
+}
+.intro-text{
+    color: var(--primarycolor);
+    font-size: 3rem;
+    font-family: var(--secondaryfont);
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.card-group{
+    margin-top: 70px;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.prgh{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    padding: 20px;
+    color: var(--fontcolor);
+}
